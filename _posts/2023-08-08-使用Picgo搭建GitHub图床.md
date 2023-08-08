@@ -48,7 +48,34 @@ PicGo 是一款用于快速上传图片并获取图片 URL 链接的工具。相
   |  设定储存路径  |                         `picgo/`                          |
   | 设定自定义域名 | `https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main` |
   
+  自定义域名有如下规则可以使用：
   
+  |     类型      |                           CDN规则                            |
+  | :-----------: | :----------------------------------------------------------: |
+  |   Staticaly   | `https://cdn.staticaly.com/gh/{{owner}}/{{repo}}@{{branch}}` |
+  | ChinaJsDelivr |  `https://jsd.cdn.zzko.cn/gh/{{owner}}/{{repo}}@{{branch}}`  |
+  |   jsDelivr    | `https://cdn.jsdelivr.net/gh/{{owner}}/{{repo}}@{{branch}}`  |
+  |    GitHub     |    `https://github.com/{{owner}}/{{repo}}/raw/{{branch}}`    |
+  
+  > 相关说明参见 PicX 图床使用指南中的[图片链接规则配置](https://picx-docs.xpoet.cn/usage-guide/settings.html#%E5%9B%BE%E7%89%87%E9%93%BE%E6%8E%A5%E8%A7%84%E5%88%99%E9%85%8D%E7%BD%AE)。
+  
+- 设置软件-PicGo 设置:
+
+  |       项目        |     示例      |
+  | :---------------: | :-----------: |
+  |    设置快捷键     | `shift+alt+a` |
+  |   打开更新助手    |     `开`      |
+  | 接受beta版本更新  |     `开`      |
+  |     开机自启      |     `开`      |
+  |   时间戳重命名    |     `开`      |
+  | 上传后自定复制URL |     `开`      |
+  | 请选择显示的图床  |   `GitHub`    |
+
+- 至此，使用 PicGo 搭建 GitHub 图床完毕。
+
+## 图床的使用
+
+完成上述布置后，
 
 
 
@@ -60,24 +87,13 @@ PicGo 是一款用于快速上传图片并获取图片 URL 链接的工具。相
 
 
 
-- [打开 PicX 使用界面](https://picx.xpoet.cn/#/config)>图床配置>输入Token>点击手动配置
 
-- 依次操作：选择仓库>选择分支>选择目录>点击确定
 
-- 点击我的设置，然后依次进行设置：图片名称设置>图片压缩设置>图片链接规则配置>图片链接格式设置
 
-  > 这里值得注意的是，github 本身的链接规则为`https://github.com/{{owner}}/{{repo}}/raw/{{branch}}/{{path}}`。此时，国内用户在不科学上网的情况下，可能会无法访问，所以，我们需要其他的CDN加速来进行访问。在 PicX 操作界面上，我们可以很方便的选择其他 CDN 加速链接。官方对此的说明参见[这里](https://picx-docs.xpoet.cn/usage-guide/settings.html#%E5%9B%BE%E7%89%87%E9%93%BE%E6%8E%A5%E8%A7%84%E5%88%99%E9%85%8D%E7%BD%AE)。
 
-- 再点击上传图片，至此，我们就可以上传图片并同时获得图片的 markdown 链接了。
 
-- 上传完图片后，我们还可以点击图床管理，然后进行以下操作：
 
-  - 查看以上上传图片的属性
-  - 复制以前上传图片的链接
-  - 删除以前上传的图片（对应 Github 中仓库的文件也会被删除）
-  - 批量复制图片链接与删除图片
 
-> 更多使用细节，可参照[官方说明文档](https://picx-docs.xpoet.cn/usage-guide/get-start.html)。
 
 
 

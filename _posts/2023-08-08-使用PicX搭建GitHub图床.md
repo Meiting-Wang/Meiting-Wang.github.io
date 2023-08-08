@@ -15,8 +15,6 @@ PicX 是一款基于 GitHub API 开发的在线图床工具，提供图片上传
 - 官方文档入口：[快速开始](https://picx-docs.xpoet.cn/usage-guide/get-start.html)
 - PicX 在线使用入口：[https://picx.xpoet.cn/](https://picx.xpoet.cn/)
 
-
-
 ## 图床搭建流程
 
 - 点击[这里](https://github.com/new)建立用于储存上传图片的仓库
@@ -43,13 +41,16 @@ PicX 是一款基于 GitHub API 开发的在线图床工具，提供图片上传
 
   > 这里值得注意的是，github 本身的链接规则为`https://github.com/{{owner}}/{{repo}}/raw/{{branch}}/{{path}}`。此时，国内用户在不科学上网的情况下，可能会无法访问，所以，我们需要其他的CDN加速来进行访问。在 PicX 操作界面上，我们可以很方便的选择其他 CDN 加速链接。官方对此的说明参见[这里](https://picx-docs.xpoet.cn/usage-guide/settings.html#%E5%9B%BE%E7%89%87%E9%93%BE%E6%8E%A5%E8%A7%84%E5%88%99%E9%85%8D%E7%BD%AE)。
 
-- 再点击上传图片，至此，我们就可以上传图片并同时获得图片的 markdown 链接了。
+- 至此，图床搭建完毕。
 
-- 上传完图片后，我们还可以点击图床管理，然后进行以下操作：
+## 图床的使用
 
-  - 查看以上上传图片的属性
-  - 复制以前上传图片的链接
-  - 删除以前上传的图片（对应 Github 中仓库的文件也会被删除）
-  - 批量复制图片链接与删除图片
+完成上述布置后，在上传图片栏目部分，我们就可以上传图片并同时获得图片的 markdown 链接了。另外，上传完图片后，我们还可以点击图床管理，然后进行以下操作：
+
+- 查看以上上传图片的属性
+- 复制以前上传图片的链接
+- 删除以前上传的图片（对应 Github 中仓库的文件也会被删除）
+- 批量复制图片链接与删除图片
 
 > 更多使用细节，可参照[官方说明文档](https://picx-docs.xpoet.cn/usage-guide/get-start.html)。
+
