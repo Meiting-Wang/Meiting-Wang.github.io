@@ -35,9 +35,9 @@ PicGo 是一款用于快速上传图片并获取图片 URL 链接的工具。相
 
 - 点击[这里](https://github.com/Molunerfinn/PicGo/releases)下载并安装软件
 
-- 设置软件-上传区：链接格式-markdown
+- 设置软件-**上传区**：链接格式-markdown
 
-- 设置软件-图床设置-GitHub:
+- 设置软件-**图床设置**-GitHub:
 
   |      项目      |                           示例                            |
   | :------------: | :-------------------------------------------------------: |
@@ -52,14 +52,14 @@ PicGo 是一款用于快速上传图片并获取图片 URL 链接的工具。相
   
   |     类型      |                           CDN规则                            |
   | :-----------: | :----------------------------------------------------------: |
-  |   Staticaly   | `https://cdn.staticaly.com/gh/{{owner}}/{{repo}}@{{branch}}` |
-  | ChinaJsDelivr |  `https://jsd.cdn.zzko.cn/gh/{{owner}}/{{repo}}@{{branch}}`  |
-  |   jsDelivr    | `https://cdn.jsdelivr.net/gh/{{owner}}/{{repo}}@{{branch}}`  |
-  |    GitHub     |    `https://github.com/{{owner}}/{{repo}}/raw/{{branch}}`    |
+  |   Staticaly   | `https://cdn.staticaly.com/gh/<owner>/<repo>@<branch>` |
+  | ChinaJsDelivr |  `https://jsd.cdn.zzko.cn/gh/<owner>/<repo>@<branch>`  |
+  |   jsDelivr    | `https://cdn.jsdelivr.net/gh/<owner>/<repo>@<branch>`  |
+  |    GitHub     |    `https://github.com/<owner>/<repo>/raw/<branch>`    |
   
   > 相关说明参见 PicX 图床使用指南中的[图片链接规则配置](https://picx-docs.xpoet.cn/usage-guide/settings.html#%E5%9B%BE%E7%89%87%E9%93%BE%E6%8E%A5%E8%A7%84%E5%88%99%E9%85%8D%E7%BD%AE)。
   
-- 设置软件-PicGo 设置:
+- 设置软件-**PicGo 设置**:
 
   |       项目        |     示例      |
   | :---------------: | :-----------: |
@@ -72,6 +72,8 @@ PicGo 是一款用于快速上传图片并获取图片 URL 链接的工具。相
   | 请选择显示的图床  |   `GitHub`    |
 
 - 至此，使用 PicGo 搭建 GitHub 图床完毕。
+
+> 如果我们想自定义图片链接格式，我们可以在**PicGo 设置**>**自定义链接格式**中自定义格式，然后在**上传区**>**链接格式**中选择**Custom**。
 
 ## 图床的使用
 
