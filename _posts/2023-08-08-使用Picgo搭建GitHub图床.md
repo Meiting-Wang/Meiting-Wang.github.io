@@ -35,6 +35,23 @@ PicGo 是一款用于快速上传图片并获取图片 URL 链接的工具。相
 
 - 点击[这里](https://github.com/Molunerfinn/PicGo/releases)下载并安装软件
 
+- 设置软件-上传区：链接格式-markdown
+
+- 设置软件-图床设置-GitHub:
+
+  |      项目      |                           示例                            |
+  | :------------: | :-------------------------------------------------------: |
+  |   图床配置名   |                         `Default`                         |
+  |   设定仓库名   |                  `Meiting-Wang/pictures`                  |
+  |   设定分支名   |                          `main`                           |
+  |   设置Token    |                `填入前面申请得到的 Token`                 |
+  |  设定储存路径  |                         `picgo/`                          |
+  | 设定自定义域名 | `https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main` |
+  
+  
+
+
+
 
 
 
