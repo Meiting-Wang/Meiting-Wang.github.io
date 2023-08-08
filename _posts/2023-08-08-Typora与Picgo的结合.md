@@ -1,5 +1,5 @@
 ---
-title: Typora 与 Picgo 的结合XXX
+title: Typora 与 Picgo 的结合
 tags: 图床 picgo typora
 ---
 
