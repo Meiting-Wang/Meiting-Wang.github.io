@@ -1,7 +1,11 @@
 ---
-title: 使用 PicGo 搭建 GitHub 图床
-tags: 图床 github picgo
+title: Typora与Picgo的结合
+tags: 图床 picgo typora
 ---
+
+
+
+
 
 在文章[使用 PicX 搭建 GitHub 图床](https://meiting-wang.github.io/2023/08/08/%E4%BD%BF%E7%94%A8PicX%E6%90%AD%E5%BB%BAGitHub%E5%9B%BE%E5%BA%8A.html)，我们介绍了使用 PicX 搭建 GitHub 图床的过程。然而，该方法只能在网页端进行操作，并且该方法在流程上略显复杂，即每次上传图片时都要经历以下过程：截图(或复制图片)>打开网页端picx>上传图片>得到markdown链接>将链接复制到本地markdown编辑器中。那么能不能有其他的方案？这是可以有的，这里我们将介绍另外一种方案：使用 PicGo 搭建 GitHub 图床。
 
