@@ -55,7 +55,7 @@ Vultr 有全球各地的机房，那么哪个机房对于我们是更合适的�
   | CPU & Storage Technology |                     AMD High Performance                     |
   |     Server Location      |                         Tokyo-Japan                          |
   |       Server Image       |                        Debian 12 x64                         |
-  |       Server Size        | \$6/mouth,  \$0.009/hour, 25GB NVMe, 1 vCPU, 1 GB Memory, 2 TB Bandwidth |
+  |       Server Size        | ＄6/mouth,  ＄0.009/hour, 25GB NVMe, 1 vCPU, 1 GB Memory, 2 TB Bandwidth |
   |     Add Auto Backups     |                             OFF                              |
   |   Additional Features    |                         Enable IPv6                          |
   |         SSH Keys         |                           保持默认                           |
