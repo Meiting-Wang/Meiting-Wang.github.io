@@ -133,9 +133,13 @@ Vultr 有全球各地的机房，那么哪个机房对于我们是更合适的�
 
 - 本部分的参考资料如下：
 
-  - [namesilo域名注册和cloudflare域名解析教程，新手入门教学](https://www.youtube.com/watch?v=NW49jTk0w60)
+  - [youtube: namesilo域名注册和cloudflare域名解析教程，新手入门教学](https://www.youtube.com/watch?v=NW49jTk0w60)
   - [NameSilo注册与域名购买教程](https://www.vpsgo.com/namesilo-coupon-and-register.html)
   - [域名解析教程：Cloudflare解析与DNSPod解析](https://www.vpsgo.com/domain-ns-cloudflare-dnspod.html)
+
+dsdsd
+
+sfsdfsdf
 
 
 
