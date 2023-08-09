@@ -41,7 +41,7 @@ tags: fq Vultr
   wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
   ```
 
-- 安装 Vision 和 Reality 协议（依据作者文档，这里有两种安装方式，一种需要域名，一种无需域名。这里只展示需要域名的方式。），这部分依次选择为：**2.任意组合安装 **> **1.Xray-core** > **7.VLESS+Reality+uTLS+Vision[推荐]** > **输入要配置的域名** > **使用默认端口（直接回车）** > **1.letsencrypt[默认]** > **UUID 随机（直接回车）** > **是否使用TLS+Vision端口 ？(输入 y，然后回车)** > **搭建完成**（该过程会同时安装 Vision_TLS、Reality+TCP+uTLS+Vision 和 Reality+gRPC+uTLS）
+- 安装 Vision 和 Reality 协议（依据作者文档，这里有两种安装方式，一种需要域名，一种无需域名。这里只展示需要域名的方式。），这部分依次选择为：**2-任意组合安装 **> **1-Xray-core** > **7-VLESS+Reality+uTLS+Vision[推荐]** > **输入要配置的域名** > **使用默认端口（直接回车）** > **1-letsencrypt[默认]** > **UUID 随机（直接回车）** > **是否使用TLS+Vision端口 ？(输入 y，然后回车)** > **搭建完成**（该过程会同时安装 Vision_TLS、Reality+TCP+uTLS+Vision 和 Reality+gRPC+uTLS）
 
 ## 节点的使用
 
@@ -53,9 +53,9 @@ tags: fq Vultr
   | VLESS+reality+uTLS+Vision | vless://......vless_reality_vision |
   |  VLESS+reality+uTLS+gRPC  |  vless://......vless_reality_grpc  |
 
-- **使用 II**：如果后期忘了对应节点的通用格式链接，我们还可以回到 FinalShell，重新打开对应 VPS > 输入**vasma** > 选择**7.账号管理** > 选择**1.查看账号**。即可重新输出上面系列通用格式。
+- **使用 II**：如果后期忘了对应节点的通用格式链接，我们还可以回到 FinalShell，重新打开对应 VPS > 输入**vasma** > 选择**7-账号管理** > 选择**1-查看账号**。即可重新输出上面系列通用格式。
 
-- **使用 III**：回到 FinalShell > 输入**vasma** > 选择**7.账号管理** > 选择**2.查看订阅** > 使用随机的 Salt（如果非第一次这么使用，则选择使用上次生成的 Salt）。此时会生成订阅链接和二维码，将订阅链接添加至魔法上网软件（移动端可直接扫描二维码进行快速添加）并更新订阅后即可实现魔法上网。
+- **使用 III**：回到 FinalShell > 输入**vasma** > 选择**7-账号管理** > 选择**2-查看订阅** > 使用随机的 Salt（如果非第一次这么使用，则选择使用上次生成的 Salt）。此时会生成订阅链接和二维码，将订阅链接添加至魔法上网软件（移动端可直接扫描二维码进行快速添加）并更新订阅后即可实现魔法上网。
 
   > Windows 和 Android 采用默认订阅即可。
 
