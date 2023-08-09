@@ -5,7 +5,7 @@ tags: fq finalshell
 
 FinalShell 是一款优秀的 SSH 管理工具，这里介绍它的用法。
 
-# 准备工作
+## 准备工作
 
 - 下载并安装好 [FinalShell](https://www.hostbuf.com/t/988.html) SSH 工具
 - 购买一台 VPS
