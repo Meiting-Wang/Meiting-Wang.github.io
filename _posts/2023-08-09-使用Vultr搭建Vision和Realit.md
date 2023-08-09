@@ -11,9 +11,10 @@ tags: fq Vultr
 
 本人于2023年8月9日使用 Vultr 亲自搭建 Vision 和 Reality 魔法上网节点。
 
+# 准备工作
 
-
-
+- 通过文章 [Vultr VPS 的购买流程](https://meiting-wang.github.io/2023/08/09/vultr-vps-%E7%9A%84%E8%B4%AD%E4%B9%B0%E6%B5%81%E7%A8%8B.html)阐述的流程购买一台 Vultr VPS。
+- 通过文章[域名的购买与解析](https://meiting-wang.github.io/2023/08/09/%E5%9F%9F%E5%90%8D%E7%9A%84%E8%B4%AD%E4%B9%B0%E4%B8%8E%E8%A7%A3%E6%9E%90.html)阐述的流程购买一个合适的域名并做好域名的解析。
 
 
 
