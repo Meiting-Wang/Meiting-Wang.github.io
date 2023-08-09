@@ -1,6 +1,6 @@
 ---
 title: FinalShell 的使用
-tags: fq finalshell
+tags: finalshell
 ---
 
 FinalShell 是一款优秀的 SSH 管理工具，这里介绍它的用法。
