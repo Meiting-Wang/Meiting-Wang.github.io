@@ -1,6 +1,6 @@
 ---
 title: 在 Windows 系统上安装 Jekyll
-tags: jekyll
+tags: jekyll blog-build
 ---
 
 为了在本地调试由 Jekyll 生成的网站效果，有必要在自己的系统上安装 Jekyll。依据
