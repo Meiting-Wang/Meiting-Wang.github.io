@@ -1,6 +1,5 @@
 ---
 title: jekyll-TeXt-theme 再探
-show_author_profile: true
 tags: jekyll blog-build jekyll-TeXt-theme
 ---
 
@@ -12,38 +11,40 @@ tags: jekyll blog-build jekyll-TeXt-theme
 
 本文对 jekyll-TeXt-theme 再做进一步使用，并将其形成文档于此。
 
+<!--more-->
+
 ## Jekyll 目录结构
 
-| 文件或文件夹 | 含义                          |
-| :----------- | :---------------------------- |
-| _posts/      | 博客内容                      |
-| _pages/      | 其他需要生成的网页，如About页 |
-| _layouts/    | 网页排版模板                  |
-| _includes/   | 模板包含的HTML片段等          |
-| _data/       | 动态数据                      |
-| _sites/      | 最终生成的静态网页            |
-| _config.yml  | 网站全局配置信息              |
-| index.html   | 网站入口                      |
+| 文件或文件夹  | 含义                          |
+| :------------ | :---------------------------- |
+| *_posts/*     | 博客内容                      |
+| *_pages/*     | 其他需要生成的网页，如About页 |
+| *_layouts/*   | 网页排版模板                  |
+| *_includes/*  | 模板包含的HTML片段等          |
+| *_data/*      | 动态数据                      |
+| *_sites/*     | 最终生成的静态网页            |
+| *_config.yml* | 网站全局配置信息              |
+| *index.html*  | 网站入口                      |
 
 ## 网站配置
 
 我们可以在根目录的*_config.yml*文件中对网站进行全局配置，常用的变量有：
 
-| 变量              | 含义         | 示例                              |
-| :---------------- | :----------- | :-------------------------------- |
-| `text_skin`       | 网站皮肤     | `text_skin: default`              |
-| `highlight_theme` | 代码高亮主题 | `highlight_theme: default`        |
-| `title`           | 网站的标题   | `title: Meiting-Wang`             |
-| `description`     | 网站描述     | `description: Truth sets us free` |
-| `lang`            | 网站的语言   | `lang: zh`                        |
-| `timezone`        | 网站时区     | `timezone: Asia/Shanghai`         |
-| author            | 网站作者     | --                                |
-|                   |              |                                   |
-|                   |              |                                   |
-|                   |              |                                   |
-|                   |              |                                   |
-|                   |              |                                   |
-|                   |              |                                   |
+| 变量              | 含义            | 示例                                              |
+| :---------------- | :-------------- | :------------------------------------------------ |
+| `text_skin`       | 网站皮肤        | `text_skin: default`                              |
+| `highlight_theme` | 代码高亮主题    | `highlight_theme: default`                        |
+| `title`           | 网站的标题      | `title: Meiting-Wang`                             |
+| `description`     | 网站描述        | `description: Truth sets us free`                 |
+| `lang`            | 网站的语言      | `lang: zh`                                        |
+| `timezone`        | 网站时区        | `timezone: Asia/Shanghai`                         |
+| `author`          | 网站作者        | `--`                                              |
+| repository        | GitHub 源码仓库 | `repository: Meiting-Wang/Meiting-Wang.github.io` |
+| `repository_tree` | GitHub 仓库分支 | `repository_tree: main`                           |
+|                   |                 |                                                   |
+|                   |                 |                                                   |
+|                   |                 |                                                   |
+|                   |                 |                                                   |
 
 ## YAML 头信息
 

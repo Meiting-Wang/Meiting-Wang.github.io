@@ -207,6 +207,8 @@ defaults:
       type: posts
     values:
       layout: article
+      # articles:
+      #   excerpt_type: html
       sharing: true
       license: true
       aside:
