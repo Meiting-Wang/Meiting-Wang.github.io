@@ -7,5 +7,7 @@
     {%- include comments-providers/valine.html -%}
   {%- elsif site.comments.provider == 'custom' -%}
     {%- include comments-providers/custom.html -%}
+  {%- elsif site.comments.provider == 'giscus' -%}
+    {%- include comments-providers/giscus.html -%}
   {%- endif -%}
 {%- endif -%}

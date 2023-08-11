@@ -118,7 +118,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: custom # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: giscus # false (default), "disqus", "gitalk", "valine", "custom", "giscus"
 
   ## Disqus
   disqus:
@@ -145,29 +145,29 @@ comments:
 
   ## custom
   # please refer to https://giscus.app/zh-CN for more info.
-  # custom:
-  #   data_repo          : Meiting-Wang/Meiting-Wang.github.io # username/repo_name
-  #   data_repo_id       : R_kgDOKDbtXw # repo id
-  #   data_category_id   : DIC_kwDOKDbtX84CYiYn # category id
-  #   data_input_position: top # bottom or top
+  giscus:
+    data_repo          : Meiting-Wang/Meiting-Wang.github.io # username/repo_name
+    data_repo_id       : R_kgDOKDbtXw # repo id
+    data_category_id   : DIC_kwDOKDbtX84CYiYn # category id
+    data_input_position: top # bottom or top
 
 
 ## => Pageview
 ##############################
-# pageview:
-#   provider: false # false (default), "leancloud", "custom"
-
-#   ## Leancloud
-#   leancloud:
-#     app_id    : # LeanCloud App id
-#     app_key   : # LeanCloud App key
-#     app_class : # LeanCloud App class
 pageview:
-  provider: leancloud
+  provider: false # false (default), "leancloud", "custom"
+
+  ## Leancloud
   leancloud:
-    app_id    : "GiQ4i03UULw23pYvelL900AN-gzGzoHsz"
-    app_key   : "5kkccxM8XsV83ukA2hrvHiXC"
-    app_class : "TeXt_class"
+    app_id    : # LeanCloud App id
+    app_key   : # LeanCloud App key
+    app_class : # LeanCloud App class
+# pageview:
+#   provider: leancloud
+#   leancloud:
+#     app_id    : "GiQ4i03UULw23pYvelL900AN-gzGzoHsz"
+#     app_key   : "5kkccxM8XsV83ukA2hrvHiXC"
+#     app_class : "TeXt_class"
 
 
 ## => Search
