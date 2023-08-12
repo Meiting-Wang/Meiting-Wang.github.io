@@ -1,3 +1,3 @@
 ### Hi, I'm Meiting Wang
 
-I heard a saying before: the truth sets us free.
+I'm interesting in LaTeX, Stata, and some magical stuff. Welcome to my blog.

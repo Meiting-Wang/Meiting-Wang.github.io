@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: article2
 titles:
   # @start locale config
   en      : &EN       About
@@ -7,7 +7,7 @@ titles:
   en-US   : *EN
   en-CA   : *EN
   en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
+  zh-Hans : &ZH_HANS  About
   zh      : *ZH_HANS
   zh-CN   : *ZH_HANS
   zh-SG   : *ZH_HANS
@@ -26,20 +26,12 @@ titles:
 key: page-about
 ---
 
-<img src="https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308122059679.jpg" alt="生活照2" style="zoom:25%;" />
+<img src="https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308122219208.jpg" alt="(wwq)IMG_0199-2" style="zoom:18%;" />
+
 
 ### Hi, I'm Meiting Wang
 
-I heard a saying before: the truth sets us free.
-
-
-
-
-
-
-
-
-
+I'm interesting in LaTeX, Stata, and some magical stuff. Welcome to my blog.
 
 
 
