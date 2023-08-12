@@ -28,7 +28,7 @@ tags: jekyll blog-build jekyll-TeXt-theme
 
 ## 网站配置
 
-我们可以在根目录的*_config.yml*文件中对网站进行全局配置，常用的变量有：
+我们可以在根目录的 *_config.yml* 文件中对网站进行全局配置，常用的变量有：
 
 | 变量                 | 含义               | 示例                                              |
 | :------------------- | :----------------- | :------------------------------------------------ |
@@ -47,6 +47,14 @@ tags: jekyll blog-build jekyll-TeXt-theme
 | `mermaid`            | 文档图形           | `mermaid: true`                                   |
 | `chart`              | 统计图表           | `chart: true`                                     |
 | `paginate`           | 每页显示的文章数   | `paginate: 8`                                     |
+| `comments`           | 评论               | `--`                                              |
+| `pageview`           | 文章点击量         | `--`                                              |
+
+## 导航栏配置
+
+
+
+
 
 ## YAML 头信息
 
@@ -64,8 +72,6 @@ mathjax: true
 | 变量                  | 含义                   | 示例                        |
 | --------------------- | ---------------------- | --------------------------- |
 | `show_author_profile` | 在文章末尾展示作者信息 | `show_author_profile: true` |
-|                       |                        |                             |
-|                       |                        |                             |
 
 
 
