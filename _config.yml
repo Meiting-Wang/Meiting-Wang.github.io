@@ -22,12 +22,12 @@ url     : # the base hostname & protocol for your site e.g. https://www.someone.
 baseurl : # does not include hostname
 title   : Meiting-Wang
 description: > # this means to ignore newlines until "Language & timezone"
-  Truth sets us free
+  The truth sets us free
 
 
 ## => Language and Timezone
 ##############################
-lang: zh # the language of your site, default as "en"
+lang: en # the language of your site, default as "en"
 timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
@@ -215,7 +215,7 @@ exclude:
   - /test
   - /vendor
 
-defaults:
+defaults: #为对应的部分设置默认值
   ## posts
   - scope:
       path: ""
@@ -228,7 +228,7 @@ defaults:
         toc: true
       show_edit_on_github: true
       show_subscribe: true
-      pageview: true
+      pageview: false
   # ## docs
   # - scope:
   #     path: "_docs/en"

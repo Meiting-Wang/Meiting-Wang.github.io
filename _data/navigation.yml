@@ -1,6 +1,6 @@
 header:
-  - title:      Docs
-    url:        /docs/zh/quick-start
+  - title:      LaTeX
+    url:        /docs/latex/quick-start
 
   - titles:
       # @start locale config
@@ -9,7 +9,7 @@ header:
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-      zh-Hans : &ZH_HANS  Archive
+      zh-Hans : &ZH_HANS  归档
       zh      : *ZH_HANS
       zh-CN   : *ZH_HANS
       zh-SG   : *ZH_HANS
@@ -35,7 +35,7 @@ header:
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-      zh-Hans : &ZH_HANS  About
+      zh-Hans : &ZH_HANS  关于
       zh      : *ZH_HANS
       zh-CN   : *ZH_HANS
       zh-SG   : *ZH_HANS

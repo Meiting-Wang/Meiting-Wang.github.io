@@ -69,9 +69,10 @@ mathjax: true
 
 在这里可以设置在_config.yml文件中预定义的变量和针对文章特有的变量，常用的变量有：
 
-| 变量                  | 含义                   | 示例                        |
-| --------------------- | ---------------------- | --------------------------- |
-| `show_author_profile` | 在文章末尾展示作者信息 | `show_author_profile: true` |
+| 变量                  | 含义                   | 示例                               |
+| --------------------- | ---------------------- | ---------------------------------- |
+| `show_author_profile` | 在文章末尾展示作者信息 | `show_author_profile: true`        |
+| `permalink`           | 永久链接               | `permalink: /docs/en/quick-start:` |
 
 
 
