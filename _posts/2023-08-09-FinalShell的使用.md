@@ -1,6 +1,6 @@
 ---
 title: FinalShell 的使用
-tags: finalshell
+tags: finalshell vultr
 ---
 
 FinalShell 是一款优秀的 SSH 管理工具，这里介绍它的用法。
@@ -27,28 +27,4 @@ FinalShell 是一款优秀的 SSH 管理工具，这里介绍它的用法。
   ![image-20230809221352795](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308092213903.png)
 
 - 至此，我们已经成功通过 FinallShell 登入 Vultr 的 VPS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
