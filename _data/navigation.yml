@@ -1,7 +1,7 @@
 header:
   - title:      Docs
     url:        /docs/zh/quick-start
-    
+
   - titles:
       # @start locale config
       en      : &EN       Archive

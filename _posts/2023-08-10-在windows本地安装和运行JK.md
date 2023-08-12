@@ -50,21 +50,6 @@ Jekyll 是由 Ruby 语言开发而成的网站搭建工具，所以我们首先�
 
 
 
-<script src="https://giscus.app/client.js"
-        data-repo="Meiting-Wang/Meiting-Wang.github.io"
-        data-repo-id="R_kgDOKDbtXw"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOKDbtX84CYiYn"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="light"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
 
 
 
