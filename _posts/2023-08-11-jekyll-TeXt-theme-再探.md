@@ -1,7 +1,6 @@
 ---
 title: jekyll-TeXt-theme 再探
 permalink: /5cae91be9b46c0ae5e5c8973cd5cdea1
-author: Tian Qi
 tags: jekyll blog-build jekyll-TeXt-theme
 ---
 
@@ -381,6 +380,9 @@ defaults: #为对应的部分设置默认值
   ---
   ```
 
+- 至此，Home 主页部署完毕，编译后效果如下：
+
+  ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308140211615.png){:.shadow}
 
 ## 为文章添加作者
 
