@@ -1,7 +1,6 @@
 header:
   - title:      LaTeX
     url:        /docs/latex/quick-start
-
   - titles:
       # @start locale config
       en      : &EN       Archive
@@ -27,7 +26,6 @@ header:
       tr      : &TR       Arşivdekiler
       # @end locale config
     url: /archive.html
-
   - titles:
       # @start locale config
       en      : &EN       About
@@ -53,6 +51,24 @@ header:
       tr      : &TR       Hakkında
       # @end locale config
     url: /about.html
-
   - title:      GitHub
     url:        https://github.com/Meiting-Wang/Meiting-Wang.github.io
+
+
+docs-latex:
+  - title:      初见 LaTeX
+    children:
+      - title:  初见 LaTeX
+        url:    /docs/latex/quick-start
+      - title:  初见 LaTeX2
+        url:    /docs/latex/quick-start2
+      - title:  初见 LaTeX3
+        url:    /docs/latex/quick-start3
+  - title:      再见 LaTeX
+    children:
+      - title:  再见 LaTeX
+        url:    /docs/latex/sec-start
+      - title:  再见 LaTeX2
+        url:    /docs/latex/sec-start2
+      - title:  再见 LaTeX3
+        url:    /docs/latex/sec-start3
