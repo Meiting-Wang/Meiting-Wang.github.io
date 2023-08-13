@@ -1,5 +1,6 @@
 ---
 layout: article2
+lightbox: true
 titles:
   # @start locale config
   en      : &EN       About

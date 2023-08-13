@@ -242,6 +242,7 @@ defaults: #为对应的部分设置默认值
       show_edit_on_github: true
       show_subscribe: true
       pageview: false
+      lightbox: true
   ## _latex
   - scope:
       path: "_latex"
@@ -256,7 +257,7 @@ defaults: #为对应的部分设置默认值
         toc: true
       show_edit_on_github: true
       show_date: true
-      # lightbox: true
+      lightbox: true
   ## _stata
   - scope:
       path: "_stata"
@@ -271,7 +272,7 @@ defaults: #为对应的部分设置默认值
         toc: true
       show_edit_on_github: true
       show_date: true
-      # lightbox: true
+      lightbox: true
 
 
 ## => Plugins
