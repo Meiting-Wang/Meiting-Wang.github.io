@@ -7,7 +7,7 @@ tags: 图床 github picx
 
 ## PicX 简介
 
-![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/image-20230808181947001.png)
+![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/image-20230808181947001.png){:.shadow}
 
 PicX 是一款基于 GitHub API 开发的在线图床工具，提供图片上传托管、生成图片链接和常用图片工具箱服务。相关的链接如下：
 

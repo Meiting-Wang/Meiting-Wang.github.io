@@ -16,15 +16,15 @@ FinalShell 是一款优秀的 SSH 管理工具，这里介绍它的用法。
 
 - 新建 SSH 连接
 
-  ![image-20230809220138344](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308092201365.png)
+  ![image-20230809220138344](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308092201365.png){:.shadow}
 
 - 将 Vultr VPS 的对应信息填写到 FinalShell 中
 
-  ![image-20230809220924669](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308092209703.png)
+  ![image-20230809220924669](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308092209703.png){:.shadow}
 
 - 通过 FinallShell 进入 Vultr VPS
 
-  ![image-20230809221352795](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308092213903.png)
+  ![image-20230809221352795](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308092213903.png){:.shadow}
 
 - 至此，我们已经成功通过 FinallShell 登入 Vultr 的 VPS
 

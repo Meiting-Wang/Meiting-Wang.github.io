@@ -15,7 +15,7 @@ tags: 图床 picgo typora
   - 上面设置完毕后，点击**验证图片上传选项**，验证以上选项是否生效。
   - 本部分设置好后如下图所示：
   
-    ![image-20230808215648644](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308082156676.png)
+    ![image-20230808215648644](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308082156676.png){:.shadow}
 - 至此，设置完毕
 
 ## 使用流程

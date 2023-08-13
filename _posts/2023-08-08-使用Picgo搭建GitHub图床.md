@@ -7,7 +7,7 @@ tags: 图床 github picgo
 
 ## PicGo 简介
 
-![image-20230808182141743](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/image-20230808182141743.png)
+![image-20230808182141743](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/image-20230808182141743.png){:.shadow}
 
 PicGo 是一款用于快速上传图片并获取图片 URL 链接的工具。相关的链接如下：
 

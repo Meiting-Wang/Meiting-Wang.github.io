@@ -15,15 +15,15 @@ tags: blog-build jekyll-TeXt-theme jekyll
 
 - 打开 [realfavicongenerator](https://realfavicongenerator.net/) 后，点击 **Select your Favicon picture**，选择需要被用来制作 Favicon 的图片进入下一步：
 
-  ![image-20230809025217476](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308090252496.png)
+  ![image-20230809025217476](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308090252496.png){:.shadow}
 
 - 选择将 Favicon 系列文件存放在根目录，点击 **Generate your Favicons and HTML code** 进入下一步（其他选项的保持默认）：
 
-  ![image-20230809025552550](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308090255572.png)
+  ![image-20230809025552550](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308090255572.png){:.shadow}
 
 - 点击 **Favicon package** 下载 realfavicongenerator 为我们制作好的系列 Favicon 文件，并将其解压在本地文件夹根目录中（若有相同，则选择替换）；将图中 HTML 代码替换到 *_includes/head/favicon.html* 文件中；部署完网站后，可返回来点击 **Check your favicon** 测试结果：
 
-  ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308090305967.png)
+  ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308090305967.png){:.shadow}
 
 
 
