@@ -68,18 +68,21 @@ mathjax: true
 | --------------------- | ---------------------- | --------------------------------- |
 | `show_author_profile` | 在文章末尾展示作者信息 | `show_author_profile: true`       |
 | `permalink`           | 永久链接               | `permalink: /docs/en/quick-start` |
-| author                | 本文作者               | author: Meiting Wang              |
-| show_title            | 展示 title             | show_title: true                  |
-| show_edit_on_github   | 展示在 github 中修改   | show_edit_on_github: true         |
-| show_date             | 展示该文章的发布日期   | show_date: true                   |
-| show_tags             | 展示该文章的标签       | show_tags: true                   |
-| full_width            | 文章内容占据全部宽度   | full_width: false                 |
-| footer                | 显示底部栏             | footer: false                     |
-| lightbox              | 文章的大图点击可预览   | lightbox: true                    |
-| aside: toc            | 文章右侧展示大纲       | aside: toc: true                  |
-| show_author_profile   | 文章末尾显示作者卡片   | show_author_profile: false        |
-| show_subscribe        | 文章末尾显示订阅消息   | show_subscribe: true              |
-|                       |                        |                                   |
+| `author`              | 本文作者               | `author: Meiting Wang`            |
+| `show_title`          | 展示 title             | `show_title: true`                |
+| `show_edit_on_github` | 展示在 github 中修改   | `show_edit_on_github: true`       |
+| `show_date`           | 展示该文章的发布日期   | `show_date: true`                 |
+| `show_tags`           | 展示该文章的标签       | `show_tags: true`                 |
+| `full_width`          | 文章内容占据全部宽度   | `full_width: false`               |
+| `footer`              | 显示底部栏             | `footer: false`                   |
+| `lightbox`            | 文章的大图点击可预览   | `lightbox: true`                  |
+| `aside: toc`          | 文章右侧展示大纲       | `aside: toc: true`                |
+| `show_author_profile` | 文章末尾显示作者卡片   | `show_author_profile: false`      |
+| `show_subscribe`      | 文章末尾显示订阅消息   | `show_subscribe: true`            |
+| `license`             | 文章的许可协议         | `license: CC-BY-NC-4.0`           |
+| `layout`              | 文章的排版模板         | `layout: article`                 |
+
+> 我个人博客的订阅地址为：[https://meiting-wang.github.io/feed.xml](https://meiting-wang.github.io/feed.xml)。
 
 ## 导航栏配置
 
