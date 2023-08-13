@@ -1,6 +1,7 @@
 ---
 title: jekyll-TeXt-theme 再探
 permalink: /5cae91be9b46c0ae5e5c8973cd5cdea1
+author: Tian Qi
 tags: jekyll blog-build jekyll-TeXt-theme
 ---
 
@@ -380,7 +381,12 @@ defaults: #为对应的部分设置默认值
   ---
   ```
 
-  
+
+## 为文章添加作者
+
+想为文章添加之前，我们需要有一些准备工作：
+
+- 设置全局作者
 
 
 
