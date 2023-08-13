@@ -215,16 +215,6 @@ exclude:
   - /test
   - /vendor
 
-# collections_dir: docs
-# collections:
-#   docs:
-#     output: true
-#   sample_page:
-#     output: true
-#   sample_articles:
-#     output: true
-#   sample_languages:
-#     output: true
 collections:
   latex:
     output: true
@@ -255,7 +245,7 @@ defaults: #为对应的部分设置默认值
       aside:
         toc: true
       show_edit_on_github: true
-      show_date: false
+      show_date: true
       # lightbox: true
 
 
