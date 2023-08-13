@@ -1,6 +1,8 @@
 header:
   - title:      LaTeX
     url:        /latex/begin
+  - title:      Stata
+    url:        /stata/begin
   - titles:
       # @start locale config
       en      : &EN       Archive
@@ -55,7 +57,7 @@ header:
     url:        https://github.com/Meiting-Wang/Meiting-Wang.github.io
 
 
-latex-nav:
+latexs-nav:
   - title:      开始
     children:
       - title:  开始 1
@@ -72,3 +74,21 @@ latex-nav:
         url:    /latex/next2
       - title:  其次 3
         url:    /latex/next3
+
+statas-nav:
+  - title:      开始
+    children:
+      - title:  开始 1
+        url:    /stata/begin
+      - title:  开始 2
+        url:    /stata/begin2
+      - title:  开始 3
+        url:    /stata/begin3
+  - title:      其次
+    children:
+      - title:  其次 1
+        url:    /stata/next
+      - title:  其次 2
+        url:    /stata/next2
+      - title:  其次 3
+        url:    /stata/next3

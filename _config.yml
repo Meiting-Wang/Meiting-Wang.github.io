@@ -218,6 +218,8 @@ exclude:
 collections:
   latex:
     output: true
+  stata:
+    output: true
 
 defaults: #为对应的部分设置默认值
   ## posts
@@ -240,7 +242,21 @@ defaults: #为对应的部分设置默认值
       layout: article
       nav_key: latex
       sidebar:
-        nav: latex-nav
+        nav: latexs-nav
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_date: true
+      # lightbox: true
+  ## _stata
+  - scope:
+      path: "_stata"
+    values:
+      layout: article
+      nav_key: stata
+      sidebar:
+        nav: statas-nav
       license: true
       aside:
         toc: true
