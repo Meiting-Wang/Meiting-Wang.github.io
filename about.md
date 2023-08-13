@@ -26,8 +26,7 @@ titles:
 key: page-about
 ---
 
-<img src="https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308122219208.jpg" alt="(wwq)IMG_0199-2" style="zoom:18%;" />{:.shadow}
-
+![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308122219208.jpg){:.shadow.rounded width="180"}
 
 ### Hi, I'm Meiting Wang
 
