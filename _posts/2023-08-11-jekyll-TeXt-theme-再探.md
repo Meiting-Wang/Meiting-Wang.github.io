@@ -314,7 +314,7 @@ defaults: #为对应的部分设置默认值
           url:    /latex/next3
   ```
 
-- 在 *_config.yaml* 上面系列文章添加 collections:
+- 在 *_config.yaml* 中为上面系列文章添加 collections:
 
   ```yaml
   collections:
@@ -322,7 +322,7 @@ defaults: #为对应的部分设置默认值
       output: true
   ```
 
-- 为目录 */_latex* 下所有文章设置以下默认格式：
+- 在 *_config.yaml* 中为目录 */_latex* 下所有文章设置以下默认格式：
 
   ```yaml
   defaults: #为对应的部分设置默认值
