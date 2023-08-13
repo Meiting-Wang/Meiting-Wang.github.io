@@ -215,6 +215,20 @@ exclude:
   - /test
   - /vendor
 
+# collections_dir: docs
+# collections:
+#   docs:
+#     output: true
+#   sample_page:
+#     output: true
+#   sample_articles:
+#     output: true
+#   sample_languages:
+#     output: true
+collections:
+  latex:
+    output: true
+
 defaults: #为对应的部分设置默认值
   ## posts
   - scope:
@@ -229,14 +243,14 @@ defaults: #为对应的部分设置默认值
       show_edit_on_github: true
       show_subscribe: true
       pageview: false
-  ## docs-latex
+  ## _latex
   - scope:
-      path: "docs/latex"
+      path: "_latex"
     values:
       layout: article
-      # nav_key: xxx
+      nav_key: latex
       sidebar:
-        nav: docs-latex
+        nav: latex-nav
       license: true
       aside:
         toc: true

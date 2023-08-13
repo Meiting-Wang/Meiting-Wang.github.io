@@ -1,6 +1,6 @@
 header:
   - title:      LaTeX
-    url:        /docs/latex/quick-start
+    url:        /latex/begin
   - titles:
       # @start locale config
       en      : &EN       Archive
@@ -55,20 +55,20 @@ header:
     url:        https://github.com/Meiting-Wang/Meiting-Wang.github.io
 
 
-docs-latex:
-  - title:      初见
+latex-nav:
+  - title:      开始
     children:
-      - title:  初见 LaTeX
-        url:    /docs/latex/quick-start
-      - title:  初见 LaTeX2
-        url:    /docs/latex/quick-start2
-      - title:  初见 LaTeX3
-        url:    /docs/latex/quick-start3
-  - title:      再见
+      - title:  开始 1
+        url:    /latex/begin
+      - title:  开始 2
+        url:    /latex/begin2
+      - title:  开始 3
+        url:    /latex/begin3
+  - title:      其次
     children:
-      - title:  再见 LaTeX
-        url:    /docs/latex/sec-start
-      - title:  再见 LaTeX2
-        url:    /docs/latex/sec-start2
-      - title:  再见 LaTeX3
-        url:    /docs/latex/sec-start3
+      - title:  其次 1
+        url:    /latex/next
+      - title:  其次 2
+        url:    /latex/next2
+      - title:  其次 3
+        url:    /latex/next3
