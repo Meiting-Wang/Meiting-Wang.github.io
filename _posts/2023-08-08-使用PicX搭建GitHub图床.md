@@ -1,5 +1,6 @@
 ---
 title: 使用 PicX 搭建 GitHub 图床
+permalink: /c41d507bfd653fdb4ae0610bc8b6cd89
 tags: 图床 github picx
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: jekyll-TeXt-theme 再探
+permalink: /5cae91be9b46c0ae5e5c8973cd5cdea1
 tags: jekyll blog-build jekyll-TeXt-theme
 ---
 
@@ -63,10 +64,10 @@ mathjax: true
 
 在这里可以设置在_config.yml文件中预定义的变量或针对文章特有的变量，常用的变量有：
 
-| 变量                  | 含义                   | 示例                               |
-| --------------------- | ---------------------- | ---------------------------------- |
-| `show_author_profile` | 在文章末尾展示作者信息 | `show_author_profile: true`        |
-| `permalink`           | 永久链接               | `permalink: /docs/en/quick-start:` |
+| 变量                  | 含义                   | 示例                              |
+| --------------------- | ---------------------- | --------------------------------- |
+| `show_author_profile` | 在文章末尾展示作者信息 | `show_author_profile: true`       |
+| `permalink`           | 永久链接               | `permalink: /docs/en/quick-start` |
 
 ## 导航栏配置
 
@@ -348,6 +349,38 @@ defaults: #为对应的部分设置默认值
 ## 添加 Home 主页
 
 我想把 home 主页添加至头部导航栏上，且想将其摘录类型设置为 html。流程如下：
+
+- 在 *_data/navigation.yml* 文件中为以上文章部署一个头部导航栏：
+
+  ```yaml
+  header:
+    - title:      Home
+      url:        /index.html
+  ```
+
+- 在文件 *_config.yaml* 中，将其摘录类型设置为 html：
+
+  ```yaml
+  defaults: #为对应的部分设置默认值
+    ## home
+    - scope:
+        path: "index.html" # index.html 为网站入口，其 layout 为 home
+      values:
+        articles:
+          excerpt_type: html
+  ```
+
+  除了以上方案，我们也可以直接在 *index.html* 文件添加以下 YAML 头信息来达到同样的目的：
+
+  ```yaml
+  ---
+  layout: home
+  articles:
+    excerpt_type: html
+  ---
+  ```
+
+  
 
 
 

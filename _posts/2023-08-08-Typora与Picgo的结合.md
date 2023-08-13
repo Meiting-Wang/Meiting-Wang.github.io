@@ -1,15 +1,16 @@
 ---
 title: Typora 与 Picgo 的结合
+permalink: /3c8b48eb133ed3dca5f38a5c790525ae
 tags: 图床 picgo typora
 ---
 
-在文章[使用 PicGo 搭建 GitHub 图床](https://meiting-wang.github.io/2023/08/08/%E4%BD%BF%E7%94%A8Picgo%E6%90%AD%E5%BB%BAGitHub%E5%9B%BE%E5%BA%8A.html)，我们介绍了使用 PicGo 搭建 GitHub 图床的过程。事实上，PicGo还可以与很多其他的软件进行结合。在这里，我们将对 PicGo 与 markdown 编辑器 Typora 的结合进行阐述。
+在文章[使用 PicGo 搭建 GitHub 图床](https://meiting-wang.github.io/22eff2fef46c2db79a045167bc3b620b.html)，我们介绍了使用 PicGo 搭建 GitHub 图床的过程。事实上，PicGo还可以与很多其他的软件进行结合。在这里，我们将对 PicGo 与 markdown 编辑器 Typora 的结合进行阐述。
 
 <!--more-->
 
 ## 设置流程
 
-- 按照文章[使用 PicGo 搭建 GitHub 图床](https://meiting-wang.github.io/2023/08/08/%E4%BD%BF%E7%94%A8Picgo%E6%90%AD%E5%BB%BAGitHub%E5%9B%BE%E5%BA%8A.html)配置软件 PicGo
+- 按照文章[使用 PicGo 搭建 GitHub 图床](https://meiting-wang.github.io/22eff2fef46c2db79a045167bc3b620b.html)配置软件 PicGo
 - 打开软件 Typora
 - 进入文件>偏好设置>图像
   - **插入图片时**：选择**上传图片**，并在“对本地位置的图片应用上述规则”前打钩

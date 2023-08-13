@@ -1,5 +1,6 @@
 ---
 title: FinalShell 的使用
+permalink: /8be7596dcbd4c56c22960bc900fafe91
 tags: finalshell vultr
 ---
 
@@ -14,7 +15,7 @@ FinalShell 是一款优秀的 SSH 管理工具，这里介绍它的用法。
 
 ## 接入 Vultr 服务器
 
-通过文章[Vultr VPS 的购买流程](https://meiting-wang.github.io/2023/08/09/vultr-vps-%E7%9A%84%E8%B4%AD%E4%B9%B0%E6%B5%81%E7%A8%8B.html)够购买了一台 VPS 后，就可以使用 FinalShell 接入该 VPS 了。流程如下：
+通过文章[Vultr VPS 的购买流程](https://meiting-wang.github.io/341802df0825bf94ec83797e798304e2.html)够购买了一台 VPS 后，就可以使用 FinalShell 接入该 VPS 了。流程如下：
 
 - 新建 SSH 连接
 
