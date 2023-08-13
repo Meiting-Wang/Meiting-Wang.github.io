@@ -56,7 +56,7 @@ header:
 
 
 docs-latex:
-  - title:      初见 LaTeX
+  - title:      初见
     children:
       - title:  初见 LaTeX
         url:    /docs/latex/quick-start
@@ -64,7 +64,7 @@ docs-latex:
         url:    /docs/latex/quick-start2
       - title:  初见 LaTeX3
         url:    /docs/latex/quick-start3
-  - title:      再见 LaTeX
+  - title:      再见
     children:
       - title:  再见 LaTeX
         url:    /docs/latex/sec-start

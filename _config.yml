@@ -229,20 +229,20 @@ defaults: #为对应的部分设置默认值
       show_edit_on_github: true
       show_subscribe: true
       pageview: false
-  # ## docs
-  # - scope:
-  #     path: "_docs/en"
-  #   values:
-  #     layout: article
-  #     nav_key: xxx
-  #     sidebar:
-  #       nav: xxx
-  #     license: true
-  #     aside:
-  #       toc: true
-  #     show_edit_on_github: true
-  #     show_date: false
-  #     # lightbox: true
+  ## docs-latex
+  - scope:
+      path: "docs/latex"
+    values:
+      layout: article
+      # nav_key: xxx
+      sidebar:
+        nav: docs-latex
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_date: false
+      # lightbox: true
 
 
 ## => Plugins
