@@ -256,6 +256,7 @@ defaults: #为对应的部分设置默认值
       aside:
         toc: true
       show_edit_on_github: true
+      show_subscribe: true
       show_date: true
       lightbox: true
   ## _stata
@@ -271,6 +272,7 @@ defaults: #为对应的部分设置默认值
       aside:
         toc: true
       show_edit_on_github: true
+      show_subscribe: true
       show_date: true
       lightbox: true
 

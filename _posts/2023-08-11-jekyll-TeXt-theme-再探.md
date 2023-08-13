@@ -76,6 +76,9 @@ mathjax: true
 | full_width            | 文章内容占据全部宽度   | full_width: false                 |
 | footer                | 显示底部栏             | footer: false                     |
 | lightbox              | 文章的大图点击可预览   | lightbox: true                    |
+| aside: toc            | 文章右侧展示大纲       | aside: toc: true                  |
+| show_author_profile   | 文章末尾显示作者卡片   | show_author_profile: false        |
+| show_subscribe        | 文章末尾显示订阅消息   | show_subscribe: true              |
 |                       |                        |                                   |
 
 ## 导航栏配置
