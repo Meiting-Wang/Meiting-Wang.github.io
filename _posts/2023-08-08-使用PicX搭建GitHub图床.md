@@ -5,6 +5,8 @@ tags: 图床 github picx
 
 我们在写markdown语言的文章时，不可避免的要使用图片。为了使得文章轻量化以及便于给其他人阅读，我们需要一个图床来承载我们上传的图片，然后在本身的markdown中，只需附上对应图片的链接即可。在这里，我将展示使用 PicX 工具搭建图床的整个过程。
 
+<!--more-->
+
 ## PicX 简介
 
 ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/image-20230808181947001.png){:.shadow}

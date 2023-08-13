@@ -12,6 +12,8 @@ tags: jekyll blog-build
 
 这里将阐述在 windows 本地安装 Jekyll 的过程。
 
+<!--more-->
+
 ## 准备工作
 
 安装过程需要 git bash 访问外网，所以需先按照文章 [Git 的配置与代理设置](https://meiting-wang.github.io/2023/08/04/git%E7%9A%84%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE.html)在 windows 本地安装并部署好 Git。

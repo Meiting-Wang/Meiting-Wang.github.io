@@ -1,4 +1,6 @@
 header:
+  - title:      Home
+    url:        /index.html
   - title:      LaTeX
     url:        /latex/begin
   - title:      Stata

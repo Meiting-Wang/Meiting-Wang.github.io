@@ -222,6 +222,12 @@ collections:
     output: true
 
 defaults: #为对应的部分设置默认值
+  ## home
+  - scope:
+      path: "index.html" # index.html 为网站入口，其 layout 为 home
+    values:
+      articles:
+        excerpt_type: html
   ## posts
   - scope:
       path: ""

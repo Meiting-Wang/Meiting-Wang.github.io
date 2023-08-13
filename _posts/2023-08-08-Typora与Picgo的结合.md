@@ -5,6 +5,8 @@ tags: 图床 picgo typora
 
 在文章[使用 PicGo 搭建 GitHub 图床](https://meiting-wang.github.io/2023/08/08/%E4%BD%BF%E7%94%A8Picgo%E6%90%AD%E5%BB%BAGitHub%E5%9B%BE%E5%BA%8A.html)，我们介绍了使用 PicGo 搭建 GitHub 图床的过程。事实上，PicGo还可以与很多其他的软件进行结合。在这里，我们将对 PicGo 与 markdown 编辑器 Typora 的结合进行阐述。
 
+<!--more-->
+
 ## 设置流程
 
 - 按照文章[使用 PicGo 搭建 GitHub 图床](https://meiting-wang.github.io/2023/08/08/%E4%BD%BF%E7%94%A8Picgo%E6%90%AD%E5%BB%BAGitHub%E5%9B%BE%E5%BA%8A.html)配置软件 PicGo
