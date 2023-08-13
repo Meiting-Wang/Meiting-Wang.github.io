@@ -388,9 +388,94 @@ defaults: #为对应的部分设置默认值
 
 想为文章添加之前，我们需要有一些准备工作：
 
-- 设置全局作者
+- 在 *_config.yaml* 中添加全局作者，如：
 
+  ```yaml
+  ## => Author and Social
+  ##############################
+  author:
+    type      : # "person" (default), "organization"
+    name      : Meiting Wang
+    url       :
+    avatar    : https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308110137093.jpg # path or url of avatar image (square)
+    bio       : The truth sets us free.
+    email     : wangmeiting92@gmail.com
+    facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
+    twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
+    weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
+    googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
+    telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
+    medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
+    zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
+    douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
+    linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+    github    : Meiting-Wang # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+    npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
+  ```
 
+- 在 *_data/authors.yml* 文件中添加其他作者，如：
+
+  ```yaml
+  Meiting Wang:
+    name      : Meiting Wang
+    url       :
+    avatar    : https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308110137093.jpg # path or url of avatar image (square)
+    bio       : The truth sets us free.
+    email     : wangmeiting92@gmail.com
+    facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
+    twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
+    weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
+    googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
+    telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
+    medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
+    zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
+    douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
+    linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+    github    : Meiting-Wang # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+    npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
+  
+  Tian Qi:
+    name      : Tian Qi
+    url       : https://tianqi.name
+    avatar    : https://wx3.sinaimg.cn/large/73bd9e13ly1fjkqy66hl8j208c08c0td.jpg
+    bio       : Author of TeXt.
+    email     : kitian616@outlook.com
+    facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
+    twitter   : kitian616 # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
+    weibo     : 234695683 # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
+    googleplus: 101827554735084402671 # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
+    telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
+    medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
+    zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
+    douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
+    linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+    github    : kitian616 # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+    npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
+  ```
+
+有了以上准备工作，我们就可以在写文章中添加作者了。方式有两种：
+
+- 在特定的文章中添加特定的作者（对应作者信息需要先备案，即前面所述的准备工作）：
+
+  ```yaml
+  author: Tian Qi
+  ```
+
+- 全局设定默认作者，有需要更改时再按上一种方法在对应文章中进行添加即可。比如说我需要为撰写普通博客设定默认作者，则我们需要在 *_config.yaml* 文件中添加以下代码：
+
+  ```yaml
+  defaults: #为对应的部分设置默认值
+    ## posts
+    - scope:
+        path: ""
+        type: posts
+      values:
+        author: Meiting Wang
+  ```
+
+  > 如果本身已经有这个 scope 了，我们只需要将 `author: Meiting Wang` 这行代码放到对应位置即可。如果想为其他 scope 设置默认作者，也是类似操作。
+
+  
 
 
 
