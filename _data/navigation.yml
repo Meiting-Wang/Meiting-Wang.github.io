@@ -58,37 +58,37 @@ header:
 
 
 latexs-nav:
-  - title:      开始
+  - title:      LaTeX 开始
     children:
-      - title:  开始 1
+      - title:  LaTeX 开始 1
         url:    /latex/begin
-      - title:  开始 2
+      - title:  LaTeX 开始 2
         url:    /latex/begin2
-      - title:  开始 3
+      - title:  LaTeX 开始 3
         url:    /latex/begin3
-  - title:      其次
+  - title:      LaTeX 其次
     children:
-      - title:  其次 1
+      - title:  LaTeX 其次 1
         url:    /latex/next
-      - title:  其次 2
+      - title:  LaTeX 其次 2
         url:    /latex/next2
-      - title:  其次 3
+      - title:  LaTeX 其次 3
         url:    /latex/next3
 
 statas-nav:
-  - title:      开始
+  - title:      Stata 开始
     children:
-      - title:  开始 1
+      - title:  Stata 开始 1
         url:    /stata/begin
-      - title:  开始 2
+      - title:  Stata 开始 2
         url:    /stata/begin2
-      - title:  开始 3
+      - title:  Stata 开始 3
         url:    /stata/begin3
-  - title:      其次
+  - title:      Stata 其次
     children:
-      - title:  其次 1
+      - title:  Stata 其次 1
         url:    /stata/next
-      - title:  其次 2
+      - title:  Stata 其次 2
         url:    /stata/next2
-      - title:  其次 3
+      - title:  Stata 其次 3
         url:    /stata/next3
