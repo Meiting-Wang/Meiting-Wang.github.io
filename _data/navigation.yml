@@ -81,7 +81,7 @@ hms-nav:
 latexs-nav:
   - title:      LaTeX 开始
     children:
-      - title:  LaTeX 开始 1
+      - title:  Awesome-LaTeX-cn
         url:    /latex/begin
       - title:  LaTeX 开始 2
         url:    /latex/begin2
