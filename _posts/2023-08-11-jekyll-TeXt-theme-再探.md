@@ -1,6 +1,9 @@
 ---
 title: jekyll-TeXt-theme 再探
 permalink: /5cae91be9b46c0ae5e5c8973cd5cdea1
+mermaid: true
+mathjax: true
+mathjax_autoNumber: true
 tags: jekyll blog-build jekyll-TeXt-theme
 ---
 
@@ -490,7 +493,122 @@ defaults: #为对应的部分设置默认值
 
   > 如果本身已经有这个 scope 了，我们只需要将 `author: Meiting Wang` 这行代码放到对应位置即可。如果想为其他 scope 设置默认作者，也是类似操作。
 
+## 数学公式
 
+可以在文章 YAML 头信息中加入
+
+```yaml
+mathjax: true
+```
+
+以使得该文章支持数学公式。当 mathjax 被激活后，可以设置
+
+```yaml
+mathjax_autoNumber: true
+```
+
+让公式自动编号。这时，我们也可以在某个特定公式后面加上 `\notag` 来阻止其编号。例如，代码如下时：
+
+```markdown
+$\sin 2x$ 可以被展开成如下形式：
+$$
+\begin{gather}
+\sin 2x = 2\sin x \cos x
+\end{gather}
+$$
+$\cos 2x$ 可以被展开成如下形式：
+$$
+\begin{align}
+\cos 2x &= \cos^2 x - \sin^2 x \\
+	&= 2\cos^2 x - 1 \\
+	&= 1 - 2\sin^2 x \notag
+\end{align}
+$$
+```
+
+效果如下：
+
+$\sin 2x$ 可以被展开成如下形式：
+$$
+\begin{gather}
+\sin 2x = 2\sin x \cos x
+\end{gather}
+$$
+$\cos 2x$ 可以被展开成如下形式：
+$$
+\begin{align}
+\cos 2x &= \cos^2 x - \sin^2 x \\
+	&= 2\cos^2 x - 1 \\
+	&= 1 - 2\sin^2 x \notag
+\end{align}
+$$
+{:.success}
+
+## Mermaid
+
+Mermaid 可以被用来画文档图形，使用它之前，需要现在文章的 YAML 头信息中加上以下语句：
+
+```yaml
+mermaid: true
+```
+
+下面举出两个示例，代码 I 为：
+
+```markdown
+graph TB;
+    A[Do you have a problem in your life?]
+    B[Then don't worry]
+    C[Can you do something about it?]
+    A--no-->B;
+    A--yes-->C;
+    C--no-->B;
+    C--yes-->B;
+```
+
+效果 I 为：
+
+```mermaid
+graph TB;
+    A[Do you have a problem in your life?]
+    B[Then don't worry]
+    C[Can you do something about it?]
+    A--no-->B;
+    A--yes-->C;
+    C--no-->B;
+    C--yes-->B;
+```
+
+代码 II 为：
+
+```markdown
+graph TD;
+    A-->B;
+    A-->C;
+    A-->D;
+    B[It is a text]-->E;
+    B-->F;
+    B-->G;
+    C-->H;
+    C-->I;
+    C-->J;
+```
+
+效果 II 为：
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    A-->D;
+    B[It is a text]-->E;
+    B-->F;
+    B-->G;
+    C-->H;
+    C-->I;
+    C-->J;
+```
+
+> 更多使用方法参见 Mermaid 的官方网页：[http://mermaid.js.org/](http://mermaid.js.org/)
 
 
 ## 附加样式
@@ -641,17 +759,57 @@ TeXt 定义了四种可用图片样式，分别为：border、shadow、rounded�
 
 <div>{%- include extensions/netease-cloud-music.html id='1938248779' -%}</div>
 
+### 视频
 
+#### 哔哩哔哩
 
+添加哔哩哔哩的流程如下：
 
+- 点击[这里](https://www.bilibili.com/)进入 B 站，打开对应视频页面
 
+- 从转发>嵌入代码中找到页面 id，将 id 信息填入以下代码：
 
+{% raw %}
 
+```markdown
+<div>{%- include extensions/bilibili.html id='input your id' -%}</div>
+```
 
+如
 
+```markdown
+<div>{%- include extensions/bilibili.html id='35800554' -%}</div>
+```
 
+{% endraw %}
 
+可得（只有最低画质，如想看更高清画质，需进入 B 站原网页）
 
+<div>{%- include extensions/bilibili.html id='35800554' -%}</div>
 
+#### YouTube
 
+添加 YouTube 的流程如下：
+
+- 点击[这里](https://www.youtube.com/)进入 YouTube，打开对应视频页面
+
+- 从页面链接中找到 id 信息（字符串`v=`后面的部分），将 id 信息填入以下代码：
+
+{% raw %}
+
+```markdown
+<div>{%- include extensions/youtube.html id='input your id' -%}</div>
+```
+
+如
+
+```markdown
+<div>{%- include extensions/youtube.html id='svoThjjIzKE' -%}</div>
+```
+
+{% endraw %}
+
+可得（可选择 4K 画质）
+
+<div>{%- include extensions/youtube.html id='svoThjjIzKE' -%}</div>
 
