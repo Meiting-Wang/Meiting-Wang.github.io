@@ -1,6 +1,8 @@
 header:
   - title:      Home
     url:        /index.html
+  - title:      HM
+    url:        /hm/begin
   - title:      LaTeX
     url:        /latex/begin
   - title:      Stata
@@ -58,6 +60,23 @@ header:
   - title:      GitHub
     url:        https://github.com/Meiting-Wang/Meiting-Wang.github.io
 
+hms-nav:
+  - title:      HM 开始
+    children:
+      - title:  HM 开始 1
+        url:    /hm/begin
+      - title:  HM 开始 2
+        url:    /hm/begin2
+      - title:  HM 开始 3
+        url:    /hm/begin3
+  - title:      HM 其次
+    children:
+      - title:  HM 其次 1
+        url:    /hm/next
+      - title:  HM 其次 2
+        url:    /hm/next2
+      - title:  HM 其次 3
+        url:    /hm/next3
 
 latexs-nav:
   - title:      LaTeX 开始

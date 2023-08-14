@@ -216,6 +216,8 @@ exclude:
   - /vendor
 
 collections:
+  hm:
+    output: true
   latex:
     output: true
   stata:
@@ -242,6 +244,22 @@ defaults: #为对应的部分设置默认值
       show_edit_on_github: true
       show_subscribe: true
       pageview: false
+      lightbox: true
+  ## _hm
+  - scope:
+      path: "_hm"
+    values:
+      layout: article
+      author: Meiting Wang
+      nav_key: hm
+      sidebar:
+        nav: hms-nav
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_subscribe: true
+      show_date: true
       lightbox: true
   ## _latex
   - scope:
