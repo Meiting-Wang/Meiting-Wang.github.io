@@ -490,65 +490,156 @@ defaults: #为对应的部分设置默认值
 
   > 如果本身已经有这个 scope 了，我们只需要将 `author: Meiting Wang` 这行代码放到对应位置即可。如果想为其他 scope 设置默认作者，也是类似操作。
 
-  
 
 
 
+## 附加样式
+
+Jekyll 使用 kramdown 作为默认 Markdown 解释器。kramdown 可以通过 ALDs 来设置块级元素或行内元素的属性。例如，可以通过 {:.class-name1.class-name-2} 来给元素定义样式类。TeXt 定义了一些样式类，你可以在文章和页面的方便的使用。
+
+### 文字样式
+
+TeXt 定义了四种可用文字样式，分别为：success、info、warning、error。
+
+代码如下：
+
+```css
+Success Text.
+{:.success}
+
+Info Text.
+{:.info}
+
+Warning Text.
+{:.warning}
+
+Error Text.
+{:.error}
+```
+
+效果如下：
+
+Success Text.
+{:.success}
+
+Info Text.
+{:.info}
+
+Warning Text.
+{:.warning}
+
+Error Text.
+{:.error}
+
+### 标签样式
+
+TeXt 定义了四种可用标签样式，分别为：success、info、warning、error。
+
+代码如下：
+
+```css
+`Success`{:.success}
+
+`Info`{:.info}
+
+`Warning`{:.warning}
+
+`Error`{:.error}
+```
+
+效果如下：
+
+`Success`{:.success}
+
+`Info`{:.info}
+
+`Warning`{:.warning}
+
+`Error`{:.error}
+
+### 图片样式
+
+TeXt 定义了四种可用图片样式，分别为：border、shadow、rounded、circle。
+
+|  样式   |                 语法                 |                             效果                             |
+| :-----: | :----------------------------------: | :----------------------------------------------------------: |
+|  默认   |      `![Image](path-to-image)`       | ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308141544186.png) |
+| border  | `![Image](path-to-image){:.border}`  | ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308141544186.png){:.border} |
+| shadow  | `![Image](path-to-image){:.shadow}`  | ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308141544186.png){:.shadow} |
+| rounded | `![Image](path-to-image){:.rounded}` | ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308141544186.png){:.rounded} |
+| circle  | `![Image](path-to-image){:.circle}`  | ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308141544186.png){:.circle} |
+
+我们也可将样式混合使用，如
+
+|            样式            |                       语法                        |                             效果                             |
+| :------------------------: | :-----------------------------------------------: | :----------------------------------------------------------: |
+|     rounded and border     |    `![Image](path-to-image){:.rounded.border}`    | ![img](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308141544186.png){:.rounded.border} |
+|     rounded and shadow     |    `![Image](path-to-image){:.rounded.shadow}`    | ![img](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308141544186.png){:.rounded.shadow} |
+|     circle and border      |    `![Image](path-to-image){:.circle.border}`     | ![img](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308141544186.png){:.circle.border} |
+|     circle and shadow      |    `![Image](path-to-image){:.circle.shadow}`     | ![img](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308141544186.png){:.circle.shadow} |
+| circle, border, and shadow | `![Image](path-to-image){:.circle.border.shadow}` | ![img](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308141544186.png){:.circle.border.shadow} |
+
+## 扩展
+
+我们可以在这里添加音频、视频等，细节如下：
+
+### 音频
+
+#### SoundCloud
+
+添加 SoundCloud 的流程如下：
+
+- 点击[这里](https://www.merlinschumacher.de/get-soundcloud-id/)进入 Soundcloud，打开对应歌曲分享页面
+
+- 复制粘贴对应歌曲的 code，移至 [Get Soundcloud ID](https://www.merlinschumacher.de/get-soundcloud-id/) 网页获取该歌曲 id：
 
 
+![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308141644613.png){:.shadow}
 
+- 将歌曲 id 填入以下代码：
 
+{% raw %}
 
+```markdown
+<div>{%- include extensions/soundcloud.html id='input your id' -%}</div>
+```
 
+如
 
+```markdown
+<div>{%- include extensions/soundcloud.html id='230333838' -%}</div>
+```
+{% endraw %}
 
+可得
 
+<div>{%- include extensions/soundcloud.html id='230333838' -%}</div>
 
+#### 网易云音乐
 
+添加网易云音乐的流程如下：
 
+- 点击[这里](https://music.163.com/)进入网易云音乐，打开对应歌曲页面
 
+- 歌曲链接自带 id，将 id 信息填入以下代码：
 
+{% raw %}
 
+```markdown
+<div>{%- include extensions/netease-cloud-music.html id='input your id' -%}</div>
+```
 
+如
 
+```markdown
+<div>{%- include extensions/netease-cloud-music.html id='1938248779' -%}</div>
+```
 
+{% endraw %}
 
+可得
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div>{%- include extensions/netease-cloud-music.html id='1938248779' -%}</div>
 
 
 
