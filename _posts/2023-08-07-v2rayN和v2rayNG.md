@@ -1,10 +1,10 @@
 ---
-title: 魔法上网软件 v2rayN 和 v2rayNG
+title: v2rayN 和 v2rayNG 的安装和使用
 permalink: /cfddecd006df0055490e8fdf8cb506a5
 tags: fq
 ---
 
-魔法上网软件主要有手机端和电脑端，这里只说一下自己使用的软件。
+这里给出 v2rayN 和 v2rayNG 的下载地址和使用教程。
 
 <!--more-->
 
