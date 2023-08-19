@@ -21,7 +21,7 @@ Clash for Windows 是一个用于 windows 上的魔法上网软件，配置和�
 
 ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308192101834.png){:.shadow}
 
-软件的汉化：进入这里，下载版本匹配的 Releases。详细的，下载对应版本的 *app.7z* 或 *app.zip* 文件(两个压缩包内容一样)后，解压压缩包，然后替换下列路径中的 *app.asar* 文件：`C:\Users\wmt\AppData\Local\Programs\Clash for Windows\resources`
+软件的汉化（如果无需汉化，则可略过这一步）：进入这里，下载版本匹配的 Releases。详细的，下载对应版本的 *app.7z* 或 *app.zip* 文件(两个压缩包内容一样)后，解压压缩包，然后替换下列路径中的 *app.asar* 文件：`C:\Users\wmt\AppData\Local\Programs\Clash for Windows\resources`
 
 ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308192117245.png){:.shadow}
 
@@ -41,40 +41,12 @@ Clash for Windows 是一个用于 windows 上的魔法上网软件，配置和�
 
 ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308192146629.png){:.shadow}
 
+## 常见问题
 
-
-
-
-
-
-
-
-
-
-## 电脑端
-
-- 软件下载地址：[Clash.for.Windows](https://github.com/Fndroid/clash_for_windows_pkg/releases)
-- 软件汉化补丁下载地址：[Clash for Windows v0.20.30 汉化补丁](https://github.com/BoyceLig/Clash_Chinese_Patch/releases)
-- 官方帮助文档：[Docs for Clash for Windows](https://docs.cfw.lbyczf.com/) 
-- 软件使用教程 
-  - [Blog: Clash 教程](https://www.codein.icu/clashtutorial/#%E5%89%8D%E8%A8%80)
-  - [YouTube: clash for windows 教程 2023｜如何下载clash｜汉化｜添加节点｜订阅｜新手友好入门教学](https://www.youtube.com/watch?v=yJ7Ihh5hhx0)
-  - [PC电脑端Clash共享给移动手机端进行科学上网](https://iyuantiao.me/clash-ssr-v2rayn.html)
-  - [youtube: Clash配置文件在线订阅转换不安全？解决订阅转换节点被盗用和无法转换大量节点，本地订阅转换教程，v2ray转clash，clash转v2ray，轻松实现本机代理在线转换功能，避免个人节点被盗！](https://www.youtube.com/watch?v=hp_YjErl2zc)
-  - [奶油Blog-节点订阅互转](https://naiyous.com/283.html)
-  - [youtube-科技分享: 订阅链接转教程，v2ray订阅转clash和clash订阅转v2ray，本地订阅链接转换配置文件](https://www.youtube.com/watch?v=DSN46F6_rNY)
-  - [在线节点订阅转换网站](https://acl4ssr-sub.github.io/)
-  - [youtube-绵阿羊：订阅转换教程，在线订阅转换和本地订阅转换简单教程，怎么将v2ray订阅转换成clash订阅](https://www.youtube.com/watch?v=xBhEOdbFLjU)
-  - [本地转换小工具](https://github.com/vveg26/SubConver/releases/tag/0.1)
-
-- 配置文件书写教程
-  - [YouTube：Clash配置文件详解，规则分流策略组以及在配置文件中添加机场订阅，实现自建节点与机场订阅一起管理](https://www.youtube.com/watch?v=wfl-DXX_wC4&list=PLoDKNa9wnCYfqxUoPNf11NrtzMatSGdF_&index=1)
-  - [blog：Clash 配置文件详解](https://blog.piig.top/posts/47134/)
-
-
-
-## 手机端
-
-- 软件下载地址：[ClashForAndroid](https://github.com/Kr328/ClashForAndroid/releases)、Google Play
-- 软件使用教程：[安卓翻墙工具Clash For Android使用教程，全自动选择最快节点，支持的协议：Shadowsocks，SSR，Vmess，Trojan，局域网共享翻墙，分应用代理！](https://www.youtube.com/watch?v=sVdlxPOhXoY)
-
+- 每次更新之后都需要重新汉化
+- clash 订阅文件下载下来事实上为一个 *.yaml* 文件。有时我们为实现特定的功能而需要的对配置文件进行修改，这里提供两个模板（形成思想来源于前面订阅转化后的文件内容）：
+  - 只包含节点系列：[config3.yaml](https://raw.githubusercontent.com/Meiting-Wang/resource/master/config3.yaml)
+  - 只包含机场订阅链接：[config4.yaml](https://raw.githubusercontent.com/Meiting-Wang/resource/master/config4.yaml)
+  - 配置文件的更多细节可参考以下资料：
+    - [youtube: 「#74」让你意想不到的 clash 客户端终极懒人用法！ rule-provider、 proxy-provider 轻松实现自动更新节点、规则、机场订阅链接](https://www.youtube.com/watch?v=IVlnvBQXEgE)
+    - [blog: 什么是 rule-provider、proxy-provider？怎么用？](https://www.jamesdailylife.com/rule-proxy-provider)
