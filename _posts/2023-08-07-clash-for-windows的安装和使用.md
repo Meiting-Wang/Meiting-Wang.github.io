@@ -11,6 +11,7 @@ Clash for Windows 是一个用于 windows 上的魔法上网软件，配置和�
 ## 项目网站与软件下载地址
 
 - Clash for Windows 的 GitHub 项目网站为：[https://github.com/Fndroid/clash_for_windows_pkg](https://github.com/Fndroid/clash_for_windows_pkg)
+- 官方帮助文档：[Docs for Clash for Windows](https://docs.cfw.lbyczf.com/) 
 - Clash for Windows 的 下载地址为：[https://github.com/Fndroid/clash_for_windows_pkg/releases](https://github.com/Fndroid/clash_for_windows_pkg/releases)
 
 在 releases 中选择 *Clash.for.Windows-x.xx.xx-win.7z* 文件进行下载。
