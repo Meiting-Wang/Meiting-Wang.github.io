@@ -33,11 +33,13 @@ Clash for Windows 是一个用于 windows 上的魔法上网软件，配置和�
 
 ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308192135182.png){:.shadow}
 
-来到代理界面，选择对应代理方式和规则，即可实现魔法上网：
+来到代理界面，选择对应代理方式和规则：
 
 ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308192144660.png){:.shadow}
 
+回到主页，打开系统代理，即可实现科学上网：
 
+![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308192146629.png){:.shadow}
 
 
 
