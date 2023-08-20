@@ -189,13 +189,13 @@ tags: fq
 
 - 如果你的是 Windows 10，进入设置>网络和Internet>状态>属性>IP设置>编辑>选择手动>打开ipv4，进行如下设置：
 
-  ![](https://cdn.jsdelivr.net/gh/Meiting-Wang/pictures/picgo/picgo-202206280136359.png)
+  ![](https://cdn.jsdelivr.net/gh/Meiting-Wang/pictures/picgo/picgo-202206280136359.png){:.shadow}
 
   > 这里的网关指向了旁路由。我们知道旁路由的网关指向了主路由，于是之后上网的数据路径为 windows>旁路由>主路由>运营商。
 
 - 如果你的是 Android，在对应 Wifi 界面进行如下设置：
 
-  ![](https://cdn.jsdelivr.net/gh/Meiting-Wang/pictures/picgo/picgo-202206280140302.png)
+  ![](https://cdn.jsdelivr.net/gh/Meiting-Wang/pictures/picgo/picgo-202206280140302.png){:.shadow}
 
 其他设备的配置与上面的类似。
 
