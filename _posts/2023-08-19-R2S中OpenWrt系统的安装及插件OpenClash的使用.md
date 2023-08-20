@@ -199,14 +199,18 @@ tags: fq
 
 其他设备的配置与上面的类似。
 
+## 结语
+
+一切都设置完毕后，查看效果。如果还是有些问题，则将所有设备重启（包括电脑、光猫、硬由器、软路由）。稳定之后，如果还是有问题，就需要一一排查问题所在了（检查是否严格按照文章的步骤进行设置；对应特定的报错，搜索引擎查找资料等）
+
 ## 参考资料
 
-- [Openwrt 作为旁路网关（不是旁路由！！）正确配置方法，性能测试 —— 破解迷思](https://www.right.com.cn/forum/thread-5512947-1-1.html)
-- [OpenWrt旁路由设置教程—小白也能看懂的超详细教程](https://www.kancloud.cn/lincong/lcjc/2791977)
-- [软路由科学上网,openclash,openwrt IPv6配置](https://www.hughh.top/posts/soft-routing-guide-3/)
-- [OpenClash使用教程，添加节点|过滤广告|dns防劫持|秒解析| 添加订阅|流量分流|策略组讲解，OpenWrt软路由翻墙，AdGuardHome+openclash详细配置教程，解决DNS污染](https://www.youtube.com/watch?v=2YYa-IM1H8E&list=PLgaEKKVPYE0ROrTD6k1QscgXasA71GheX)
-- [软路由做旁路由三步搞定！openwrt软路由 R2S R4S openwrt软路由上网设置](https://www.youtube.com/watch?v=w7rwNF2Q3lM)
-- [R2S软路由销量之王！R2S安装openwrt攻略 openwrt软路由设置](https://www.youtube.com/watch?v=ZCmbbnIBD78)
+- [Blog: Openwrt 作为旁路网关（不是旁路由！！）正确配置方法，性能测试 —— 破解迷思](https://www.right.com.cn/forum/thread-5512947-1-1.html)
+- [Blog: OpenWrt旁路由设置教程—小白也能看懂的超详细教程](https://www.kancloud.cn/lincong/lcjc/2791977)
+- [Blog: 软路由科学上网,openclash,openwrt IPv6配置](https://www.hughh.top/posts/soft-routing-guide-3/)
+- [youtube: OpenClash使用教程，添加节点|过滤广告|dns防劫持|秒解析| 添加订阅|流量分流|策略组讲解，OpenWrt软路由翻墙，AdGuardHome+openclash详细配置教程，解决DNS污染](https://www.youtube.com/watch?v=2YYa-IM1H8E&list=PLgaEKKVPYE0ROrTD6k1QscgXasA71GheX)
+- [youtube: 软路由做旁路由三步搞定！openwrt软路由 R2S R4S openwrt软路由上网设置](https://www.youtube.com/watch?v=w7rwNF2Q3lM)
+- [youtube: R2S软路由销量之王！R2S安装openwrt攻略 openwrt软路由设置](https://www.youtube.com/watch?v=ZCmbbnIBD78)
 
 
 
