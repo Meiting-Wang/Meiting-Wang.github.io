@@ -10,7 +10,7 @@ tags: fq
 
 ## 主路由的设置
 
-我的主路由是小米 Redmi 路由器 AC2100。一般而言这部分的设置应该是你之前就已经完成了。现假设你还没有完成，这里分两个方面进行讲解。
+我的主路由是**小米 Redmi 路由器 AC2100**。一般而言这部分的设置应该是你之前就已经完成了。现假设你还没有完成，这里分两个方面进行讲解。
 
 ### 需要拨号上网
 
@@ -87,7 +87,7 @@ tags: fq
 
 - 进入**系统**>**设置向导**，进行如下设置：
 
-  ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308201652633.png){:.shadow}
+  ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308202323848.png){:.shadow}
 
   ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308201652837.png){:.shadow}
 
@@ -95,7 +95,7 @@ tags: fq
 
   ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308201617373.png){:.shadow}
 
-  ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308201620343.png){:.shadow}
+  ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308202325914.png){:.shadow}
 
   ![](https://cdn.staticaly.com/gh/Meiting-Wang/pictures@main/picgo/202308201625670.png){:.shadow}
 
@@ -187,11 +187,26 @@ tags: fq
 
 **在入侵模式下，你的所有终端已全部实现魔法上网。无需再进行本部分设置**。在非入侵模式下，尽管软路由可以魔法上网，但连接在主路由下的终端还无法实现魔法上网。基于非入侵式旁路由的特点，我们还需要对每个终端进行额外设置。
 
-- 如果你的是 Windows 10，进入设置>网络和Internet>状态>属性>IP设置>编辑>选择手动>打开ipv4
+- 如果你的是 Windows 10，进入设置>网络和Internet>状态>属性>IP设置>编辑>选择手动>打开ipv4，进行如下设置：
 
+  ![](https://cdn.jsdelivr.net/gh/Meiting-Wang/pictures/picgo/picgo-202206280136359.png)
 
+  > 这里的网关指向了旁路由。我们知道旁路由的网关指向了主路由，于是之后上网的数据路径为 windows>旁路由>主路由>运营商。
 
+- 如果你的是 Android，在对应 Wifi 界面进行如下设置：
 
+  ![](https://cdn.jsdelivr.net/gh/Meiting-Wang/pictures/picgo/picgo-202206280140302.png)
+
+其他设备的配置与上面的类似。
+
+## 参考资料
+
+- [Openwrt 作为旁路网关（不是旁路由！！）正确配置方法，性能测试 —— 破解迷思](https://www.right.com.cn/forum/thread-5512947-1-1.html)
+- [OpenWrt旁路由设置教程—小白也能看懂的超详细教程](https://www.kancloud.cn/lincong/lcjc/2791977)
+- [软路由科学上网,openclash,openwrt IPv6配置](https://www.hughh.top/posts/soft-routing-guide-3/)
+- [OpenClash使用教程，添加节点|过滤广告|dns防劫持|秒解析| 添加订阅|流量分流|策略组讲解，OpenWrt软路由翻墙，AdGuardHome+openclash详细配置教程，解决DNS污染](https://www.youtube.com/watch?v=2YYa-IM1H8E&list=PLgaEKKVPYE0ROrTD6k1QscgXasA71GheX)
+- [软路由做旁路由三步搞定！openwrt软路由 R2S R4S openwrt软路由上网设置](https://www.youtube.com/watch?v=w7rwNF2Q3lM)
+- [R2S软路由销量之王！R2S安装openwrt攻略 openwrt软路由设置](https://www.youtube.com/watch?v=ZCmbbnIBD78)
 
 
 
