@@ -1,7 +1,9 @@
 ---
 title: 使用 PicGo 搭建 GitHub 图床
 permalink: /22eff2fef46c2db79a045167bc3b620b
-tags: 图床 github picgo
+tags: 
+  - 图床 
+  - github
 ---
 
 在文章[使用 PicX 搭建 GitHub 图床](https://meiting-wang.github.io/c41d507bfd653fdb4ae0610bc8b6cd89.html)，我们介绍了使用 PicX 搭建 GitHub 图床的过程。然而，该方法只能在网页端进行操作，并且该方法在流程上略显复杂，即每次上传图片时都要经历以下过程：截图(或复制图片)>打开网页端picx>上传图片>得到markdown链接>将链接复制到本地markdown编辑器中。那么能不能有其他的方案？这是可以有的，这里我们将介绍另外一种方案：使用 PicGo 搭建 GitHub 图床。

@@ -1,7 +1,8 @@
 ---
 title: 在 Windows 系统本地安装和运行 Jekyll
 permalink: /04f982d01fec4d3acdbd6b406147cb16
-tags: jekyll blog-build
+tags: 
+  - jekyll
 ---
 
 为了在本地调试由 Jekyll 生成的网站效果，有必要在自己的系统上安装 Jekyll。依据

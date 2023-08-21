@@ -1,7 +1,8 @@
 ---
 title: 使用 Vultr 搭建 Vision 和 Reality
 permalink: /75b32ec5e51d9b04395b260863918235
-tags: fq Vultr
+tags: 
+  - fq
 ---
 
 依据以下资料：
