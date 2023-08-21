@@ -1,7 +1,9 @@
 ---
 title: R2S 中 OpenWrt 系统的安装、更新、设置及插件 OpenClash 的使用
 permalink: /aa9040d613e8b8913594af76f858dfd1
-tags: fq
+category: Post
+tags: 
+  - fq
 ---
 
 这篇文章将介绍 R2S 中 OpenWrt 系统的安装、更新、设置及插件 OpenClash 的使用（以旁路由的视角）。我之所以采用旁路由的方式，是因为如果哪一天软路由挂了，我们的核心网络不会受到影响。

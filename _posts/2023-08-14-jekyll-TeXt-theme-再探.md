@@ -4,7 +4,9 @@ permalink: /5cae91be9b46c0ae5e5c8973cd5cdea1
 mermaid: true
 mathjax: true
 mathjax_autoNumber: true
-tags: jekyll blog-build jekyll-TeXt-theme
+category: Post
+tags: 
+  - jekyll
 ---
 
 依据以下资料：

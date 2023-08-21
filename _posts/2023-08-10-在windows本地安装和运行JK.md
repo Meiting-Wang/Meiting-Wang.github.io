@@ -1,6 +1,7 @@
 ---
 title: 在 Windows 系统本地安装和运行 Jekyll
 permalink: /04f982d01fec4d3acdbd6b406147cb16
+category: Post
 tags: 
   - jekyll
 ---

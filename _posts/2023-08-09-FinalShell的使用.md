@@ -1,7 +1,9 @@
 ---
 title: FinalShell 的使用
 permalink: /8be7596dcbd4c56c22960bc900fafe91
-tags: finalshell vultr
+category: Post
+tags: 
+  - fq
 ---
 
 FinalShell 是一款优秀的 SSH 管理工具，这里介绍它的用法。

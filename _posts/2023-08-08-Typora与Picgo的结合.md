@@ -1,7 +1,9 @@
 ---
 title: Typora 与 Picgo 的结合
 permalink: /3c8b48eb133ed3dca5f38a5c790525ae
-tags: 图床 picgo typora
+category: Post
+tags: 
+  - 图床
 ---
 
 在文章[使用 PicGo 搭建 GitHub 图床](https://meiting-wang.github.io/22eff2fef46c2db79a045167bc3b620b.html)，我们介绍了使用 PicGo 搭建 GitHub 图床的过程。事实上，PicGo还可以与很多其他的软件进行结合。在这里，我们将对 PicGo 与 markdown 编辑器 Typora 的结合进行阐述。

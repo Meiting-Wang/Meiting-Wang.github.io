@@ -1,7 +1,9 @@
 ---
 title: Clash for Android 的安装和使用
 permalink: /d047ba2bd72ac806095357675a88cbf1
-tags: fq
+category: Post
+tags: 
+  - fq
 ---
 
 Clash for Android 是一个用于 Android 上的魔法上网软件，这里介绍它的配置和使用方法。

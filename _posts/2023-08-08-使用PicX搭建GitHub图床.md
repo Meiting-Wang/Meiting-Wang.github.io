@@ -1,6 +1,7 @@
 ---
 title: 使用 PicX 搭建 GitHub 图床
 permalink: /c41d507bfd653fdb4ae0610bc8b6cd89
+category: Post
 tags: 
   - 图床 
   - github

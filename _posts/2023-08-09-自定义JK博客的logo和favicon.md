@@ -1,7 +1,9 @@
 ---
 title: 自定义 jekyll-TeXt-theme 博客的 Logo 和 Favicon
 permalink: /40d61226fce771435333f2a4ea22923f
-tags: blog-build jekyll-TeXt-theme jekyll
+category: Post
+tags: 
+  - jekyll
 ---
 
 我们前面通过文章[利用 Github Pages + jekyll-TeXt-theme 初步搭建个人博客](https://meiting-wang.github.io/60206685de2be21c3ff425a9179e2fa2.html)介绍了初步搭建博客的流程。这里我们依据官方文档 [Logo 和 Favicon](https://kitian616.github.io/jekyll-TeXt-theme/docs/zh/logo-and-favicon) 介绍如何去更改网站的 Logo 和 Favicon。

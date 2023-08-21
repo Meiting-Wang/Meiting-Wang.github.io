@@ -1,7 +1,9 @@
 ---
 title: Clash for Windows 的安装和使用
 permalink: /7556294033efd547cd34592d06782ef4
-tags: fq
+category: Post
+tags: 
+  - fq
 ---
 
 Clash for Windows 是一个用于 windows 上的魔法上网软件，配置和使用方法要比 v2rayN 复杂。这里一切从简，给出 Clash for Windows 的下载地址和使用教程。

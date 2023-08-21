@@ -1,6 +1,7 @@
 ---
 title: 使用 PicGo 搭建 GitHub 图床
 permalink: /22eff2fef46c2db79a045167bc3b620b
+category: Post
 tags: 
   - 图床 
   - github
